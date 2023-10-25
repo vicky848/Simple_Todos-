@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  list-style-type: none;
+  margin: 5px;
+}
+
+.title {
+  color: #000000;
+  font-size: 18px;
+  font-family: 'roboto';
+}
+.delete-button {
+  height: 25px;
+  width: 112px;
+  background-color: #ffffff;
+  color: #ff0b37;
+  border-color: #ff0b37;
+  border: 1px solid;
+  margin: 15px;
+}
+.hover.delete-button {
+  cursor: pointer;
+}
